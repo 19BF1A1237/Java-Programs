@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Main
+{ 
+    static int a,b;
+    public static void main(String[] args) {
+      Scanner a=new Scanner(System.in);
+      System.out.print("Enter number:");
+      int m=a.nextInt();
+      Scanner b=new Scanner(System.in);
+      System.out.print("Enter number:");
+      int n=b.nextInt();
+      for(int i=1;i<=n;i++){
+         System.out.println(n+"*"+i+"="+(n*i)); 
+      }
+    }
+}    
+
+
+Enter number:5                                                                                                                                
+Enter number:12                                                                                                                               
+12*1=12                                                                                                                                       
+12*2=24                                                                                                                                       
+12*3=36                                                                                                                                       
+12*4=48                                                                                                                                       
+12*5=60     
+12*6=72                                                                                                                                       
+12*7=84                                                                                                                                       
+12*8=96                                                                                                                                       
+12*9=108                                                                                                                                      
+12*10=120
+12*11=132                                                                                                                                     
+12*12=144                                                                                                                                     
+                                                                                                                                              
+                                                                                                                                              
+...Program finished with exit code 0                                                                                                          
+Press ENTER to exit console.  
